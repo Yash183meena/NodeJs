@@ -1,0 +1,32 @@
+here i will talk about versoning
+
+//versoning
+
+4.18.2
+
+1st Part --> 4
+2nd Part --> 18
+3rd Part --> 2
+
+3rd part (Last Part) -- minor fixes(optional) //latest 4.18.3
+s--> minor Fix
+
+2nd part - Recommended Bug Fix(Security fix)  //latest 4.19.2
+18 --> 18th bug fix
+
+1st Part -- Major change/ (It is the breaking Update can be updated in its own risk therse is chances that application can be run or not from this change)
+4-->VERSION
+
+
+if you can install express from you own version which you can get(by default latest can be installed)  than npm install express@4.16.2
+
+
+^(carrot symbol) --> Install all recommended and Minor fixes automatically(but locks the fist bit i.e 4 here and as updates comes automatically updates the version in  2nd and 3rd bit)
+
+~ --> This can fix two starting bits means fix(and version bit,recommend bug bit) if there is update comes only automatally update in 3rd bit only
+
+
+from ^ symbaol is not used only 4.18.2 uses instead of ^4.18.2 if there is update comes update manually because it is fixed not updated manually
+
+^ symbol also hepls to update bits automaticaaly if updates comes while first bt remains same
+
